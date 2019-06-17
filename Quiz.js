@@ -26,8 +26,13 @@ class Quiz {
     this.score=num;
   }
 
-  asked(){
-    
+  start() {
+    this.unasked.push(triviaApi.data.results);
+  }
+
+  nextQuestion() {
+    const askedQuestion = this.unasked.shift();
+    this.asked.push(askedQuestion);
   }
 
 }
