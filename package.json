@@ -1,0 +1,20 @@
+{
+  "name": "Mantong-Whitney-Quiz-App",
+  "version": "1.0.0",
+  "description": "The initial screen should have a button that users can click to start the quiz. Users should be prompted through a series of at least 5 multiple choice questions that they can answer. Questions are selected from a larger question set (each new game will produce different questions) Users are asked questions one at a time only User must submit an answer before being able to continue (cannot skip) Users should have a progress meter (e.g. question 2 of 5) and score meter throughout the quiz Upon submitting an answer, users should: receive textual feedback about their answer if they were incorrect, they should be provided the correct answer be moved onto the next question (or interact with an element to move on). At the end of the quiz, users should be told if their current score has exceeded the currently recorded high score (tracked by local session only) Users should be able to start a new quiz, retaining the high score ##Technical requirements Your quiz app must:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkful-ei-emu/Mantong-Whitney-Quiz-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thinkful-ei-emu/Mantong-Whitney-Quiz-App/issues"
+  },
+  "homepage": "https://github.com/thinkful-ei-emu/Mantong-Whitney-Quiz-App#readme"
+}
