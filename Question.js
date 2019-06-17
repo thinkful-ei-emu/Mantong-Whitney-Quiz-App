@@ -1,26 +1,26 @@
 class Question {
-    constructor(){
+  constructor(){
     this.text='';
     this.answers=[];
     this.correctAnswer='';
     this.userAnswer=null;
-    }
+  }
 
-    submitAnswer(answer){
-        this.userAnswer=answer;
-    };
-    answerStatus(answer){
-    if (userAnswer=null){
-        answerStatus=-1;
+  submitAnswer(answer){
+    this.userAnswer=answer;
+  }
+  answerStatus(){
+    if (this.userAnswer===null){
+      this.answerStatus=-1;
     }
-    if (userAnswer!==correctAnswer){
-        answerStatus=0;
+    if (this.userAnswer!==this.correctAnswer){
+      this.answerStatus=0;
     }
     else{
-        answerStatus=1;
+      this.answerStatus=1;
     }
     
-   };
+  }
 }
 
 
